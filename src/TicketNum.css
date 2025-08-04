@@ -1,0 +1,21 @@
+.TicketNum {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  background-color: #dff0fb;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  user-select: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.TicketNum:hover {
+  background-color: #4da6ff;
+  color: white;
+  cursor: default;
+}

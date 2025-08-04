@@ -1,0 +1,41 @@
+.Lottery {
+  width: 50rem;
+  height: 15rem;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 2px solid #4da6ff;
+  border-radius: 12px;
+  background-color: #eaf4ff;
+  box-shadow: 0 4px 10px rgba(77, 166, 255, 0.2);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Lottery select {
+  padding: 0.4rem 0.8rem;
+  font-size: 1.3rem;
+  border-radius: 6px;
+  border: 1.5px solid #152a3e;
+  background-color: white;
+  color: #1c232d;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Lottery select:hover,
+.Lottery select:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 8px rgba(26, 115, 232, 0.5);
+  outline: none;
+}
+
+.Lottery h3 {
+  margin-top: 1rem;
+  color: #106031;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
