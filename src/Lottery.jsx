@@ -3,7 +3,7 @@ import "./Lottery.css"
 import { useState } from "react";
 import { genTicket, sum } from "./helper";
 import Button from "./Button";
-import { conditions } from "./Condition.jsx";
+import { conditions } from "./Condition.js";
 
 export default function Lottery({ n = 4 }) {
   const [ticketArr, setTicketArr] = useState(genTicket(n));
