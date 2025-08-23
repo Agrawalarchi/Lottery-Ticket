@@ -3,10 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <>
-  <h1 style={{color:'lightBlue'}}>Lottery Game!</h1>
-  <Lottery n={5} />
-  </>
+  <div className='rootBox'>
+       <h1 className='mainHeading'> Lottery Game!</h1>
+       <Lottery n={5} />
+  </div>
   )
 }
 

@@ -30,8 +30,7 @@ export default function Lottery({ n = 4 }) {
 
   return (
     <div className="Lottery">
-      
-      <div style={{ display: 'flex', justifyContent:'center', alignItems: 'center', gap: '1rem' }}>
+      <div className="subWrapper">
         <Ticket ticketArr={ticketArr} />
         <select value={selectedCondition} onChange={handleChange}>
           {condOptions}
