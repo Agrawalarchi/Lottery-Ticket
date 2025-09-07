@@ -60,5 +60,5 @@ export const conditions = {
     fn: (ticketArr) => ticketArr.some(num => num % 10 === 0),
   },
 
-  // Aap aur conditions yahan add kar sakte hain
+  //  aur conditions yahan add kar sakte hain
 };
