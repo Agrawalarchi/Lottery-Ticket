@@ -23,7 +23,7 @@ export default function Lottery({ n = 4 }) {
     setSelectedCondition(e.target.value);
   };
 
-  // Create options for select dropdown
+  
   const condOptions = Object.entries(conditions).map(([key, condition]) => (
     <option key={key} value={key}>{condition.label}</option>
   ));
