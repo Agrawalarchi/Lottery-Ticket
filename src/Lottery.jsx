@@ -1,7 +1,7 @@
 import Ticket from "./Ticket";
 import "./Lottery.css"
 import { useState } from "react";
-import { genTicket, sum } from "./helper";
+import { genTicket } from "./helper";
 import Button from "./Button";
 import { conditions } from "./Condition.js";
 
