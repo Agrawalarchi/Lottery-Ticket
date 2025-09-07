@@ -3,7 +3,7 @@ import { sum } from './helper';
 export const conditions = {
   sum19: {
     label: "Sum = 19",
-    fn: (ticketArr) => ticketArr.reduce((a, b) => a + b, 0) === 19,
+    fn: (ticketArr) => sum(ticketArr) === 19,
   },
 
   allZero: {
