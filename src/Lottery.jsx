@@ -38,7 +38,7 @@ export default function Lottery({ n = 4 }) {
       </div>
       <br />
       <Button action={buyTicket} />
-      {isWinner && <h3>Congratulations! You win.</h3>}
+      {isWinner ?<h3>Congratulations! You win.</h3> :<h2 style={{color:"red"}}> Sorry ! You loss.</h2>}
     </div>
   );
 }
